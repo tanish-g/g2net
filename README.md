@@ -49,7 +49,6 @@
 > **NOTE** : **Parallel** keyword denotes a modified architecture where we trained two CNN backbones simultaneously and concatenated their GAP’s output followed by two FC layers.
 > 
 > We trained backbones of different complexities which may use a specific approach or a combination of them. The models also varied with image sizes and frequency range. 
-> ![image](https://drive.google.com/file/d/1cWQpfQw1ghp6ZPqTR6OlmLnPCEe6Sb8r/view?usp=sharing)
 > # Ensembing
 >  - We had around 50 models at the end with our best model scoring 0.8808.
 >  - With weighted averaging, we were able to achieve around 0.8823 public LB ( 0.88047 private).
