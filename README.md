@@ -1,7 +1,4 @@
-> I would like to thank my team members @sakshamaggarwal @darkravager @callmeb and @mrigendraagrawal, organizers and the Kaggle community for the amazing experience we had during this competition.
-> 
 > # Preprocessing: 
-> thanks to @callmeb
 >  - **Mean PSD**: We calculated the mean PSD as simple running mean and store it for later normalization:
 > ```
 > train0 = train[train.target==0].reset_index(drop=True)
