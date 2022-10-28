@@ -49,5 +49,5 @@
 > # Ensembing
 >  - We had around 50 models at the end with our best model scoring 0.8808.
 >  - With weighted averaging, we were able to achieve around 0.8823 public LB ( 0.88047 private).
->  - Switching to Stacking Ensembling with sklearn’s MLP classifier significantly boosted our public LB to 0.8830 ( 0.88133 private).
+>  - Switching to Stacking Ensembling with sklearn’s MLP classifier significantly boosted our public LB to 0.8830 ( 0.8813 private).
 >  - Also tried stacking with different classifiers like LGB, logistic etc and different model selections like top 10, top 20 etc, but they performed relatively poorer in both public and private LB.
